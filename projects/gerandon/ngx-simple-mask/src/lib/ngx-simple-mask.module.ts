@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
-import { NgxSimpleMaskComponent } from './ngx-simple-mask.component';
+import { NgxSimpleMaskDirective } from './ngx-simple-mask.directive';
 
 @NgModule({
   declarations: [
-    NgxSimpleMaskComponent
+    NgxSimpleMaskDirective
   ],
   imports: [
   ],
   exports: [
-    NgxSimpleMaskComponent
+    NgxSimpleMaskDirective
   ]
 })
 export class NgxSimpleMaskModule { }

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxSimpleMaskModule } from "@gerandon/ngx-simple-mask";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NgxSimpleMaskModule } from "@gerandon/ngx-simple-mask";
     BrowserModule,
     AppRoutingModule,
     NgxSimpleMaskModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
